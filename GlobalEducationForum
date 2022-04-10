@@ -1,0 +1,27 @@
+border: 4px solid #ff5f00;
+}
+
+.flashcards div h3{
+    text-align: center;
+}
+
+.selected{
+    width: 300px !important;
+}
+@@ -260,11 +264,7 @@ ul{
+    border: 3px solid #ff5f00 !important;
+}
+
+.selected img:hover {
+    border: 5px solid #ff5f00 !important;
+}
+
+.display-panelist {
+.selected h3 {
+    color: #ff5f00;
+}
+@media (width >= 35em) and (max-width: 50em) {
+.primary-grid {
+  grid-template-columns : repeat(3, 1fr);
+  }
+} 
